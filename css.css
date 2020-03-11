@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+.panes-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-pane {
+    width: 25%;
+    background: #ccc;
+}
+
+.panes-separator {
+    width: 1%;
+    background: black;
+    position: relative;
+    cursor: col-resize;
+}
+
+.right-pane {
+    flex: auto;
+    background: #eee;
+}
+
+.panes-container,
+.panes-separator,
+.left-pane,
+.right-pane {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
